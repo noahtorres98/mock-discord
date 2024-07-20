@@ -1,10 +1,7 @@
+import React from "react";
 
-const Top = () => {
-  return (
-    <div className="bg-red-500">
-      Navbar
-    </div>
-  )
+function Top() {
+  return <div className="bg-black">test</div>;
 }
 
-export default Top
+export default Top;

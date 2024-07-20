@@ -4,7 +4,7 @@
 
 @layer components {
   .sidebar-icon {
-    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto bg-white text-green-500 hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+    @apply relative flex items-center justify-center h-12 w-12 mx-auto bg-white text-green-500 hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
   }
 
   .sidebar-tooltip {
@@ -15,7 +15,7 @@
   }
 
   .channel-bar {
-    @apply w-56 ml-16 min-w-max bg-gray-100 dark:bg-gray-800 overflow-hidden h-full;
+    @apply w-56 min-w-max bg-gray-100 dark:bg-gray-800 overflow-hidden h-full;
   }
 
   .channel-container {
@@ -52,5 +52,11 @@
 }
 
 * {
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
 }
